@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="5dp"
+    android:background="@drawable/other_view"
+    tools:context="vennsroadacc.vennsroadacc.Vehicle">
+
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/txtRegistrationNo"
+        android:layout_weight="0.08"
+        android:hint="Registration Number"
+        android:inputType="text"
+        android:textSize="15sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:hint="Make Model"
+        android:id="@+id/txtMakeModel"
+        android:layout_weight="0.08"
+        android:inputType="text"
+        android:textSize="15sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:hint="Owner name"
+        android:id="@+id/txtOwnerName"
+        android:layout_weight="0.08"
+        android:inputType="text"
+        android:textSize="15sp"
+        />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:hint="Owner Address"
+            android:id="@+id/txtOwnerAddress"
+            android:layout_weight="0.08"
+            android:inputType="textMultiLine"
+            android:textSize="15sp"
+            />
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:hint="Driver name"
+            android:id="@+id/txtDriverName"
+            android:layout_weight="0.08"
+            android:inputType="text"
+            android:textSize="15sp"
+            />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/txtDriverAddress"
+            android:hint="Driver Address"
+            android:layout_weight="0.08"
+            android:inputType="textMultiLine"
+            android:textSize="15sp"
+            />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/txtOwnerTel"
+            android:hint="Owner Tel Number"
+            android:layout_weight="0.08"
+            android:inputType="number"
+            android:textSize="15sp"
+            />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/txtDriverTel"
+            android:hint="Driver Tel Number"
+            android:layout_weight="0.08"
+            android:inputType="number"
+            android:textSize="15sp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/txtVehicleInsured"
+            android:hint="Vehicle Insured"
+            android:layout_weight="0.08"
+            android:inputType="text"
+            android:textSize="15sp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnToOtherVehicle"
+            android:layout_weight="0.08"
+            android:hint="Proceed"
+            android:onClick="ToOtherVehicle"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+        />
+
+    </LinearLayout>
+</RelativeLayout>
